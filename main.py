@@ -4,12 +4,12 @@ import os
 
 LATITUDE = 51.588187
 LONGITUDE = -0.042389
-API_KEY = os.environ.get("OWM_API_KEY") 
+API_KEY = os.environ.get("OPENWEATHER_API_KEY") 
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 INTERVAL = 4
-ACCOUNT_SID= os.environ.get("TWIL_ACCOUNT_SID")
-AUTH_TOKEN= os.environ.get("TWIL_AUTH_TOKEN")
-MY_NUMBER= os.environ.get("PERS_NUMBER")
+ACCOUNT_SID= os.environ.get("TWILIO_ACCOUNT_SID")
+AUTH_TOKEN= os.environ.get("TWILIO_AUTH_TOKEN")
+MY_NUMBER= os.environ.get("MY_PHONE_NUMBER")
 
 PARAMS = {
     "lat": LATITUDE,
